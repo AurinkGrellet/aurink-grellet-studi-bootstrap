@@ -12,28 +12,35 @@
     <body>
         <!-- Barre de navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary ps-3">
-                <a class="navbar-brand" href="#">Bilbuq</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/events.html">Évènements</a>
-                        </li>
-                    </ul>
-                </div>
+            <img src="https://img.freepik.com/vecteurs-libre/vecteur-projet-point-croix_53876-26624.jpg" class="img-fluid rounded-circle float-start" style="height:2em;" />
+            <a class="navbar-brand ms-2" href="#">Bilbuq</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/events.html">Évènements</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
+        <!-- Bannière -->
+        <div class="text-center">
+            <img src="https://img.freepik.com/vecteurs-libre/illustration-vectorielle-ornement-modele-sans-couture-folklorique-ornement-vert-ethnique-du-nouvel-an-pins-cerfs-element-bordure-ethnique-cool-pour-vos-creations_1217-6407.jpg?w=1380&t=st=1684492293~exp=1684492893~hmac=d401e3d22c82024a75e3b73f37b7de86fa60217ddd65aabdf3a93d91d15503d0" style="min-width: 95%; max-height:400px" />
+        </div>
+
         <!-- Corps principal -->
-        <main class="mt-3 ps-3">
+        <div class="row" style="max-width:100%;">
+        <main class="col-8 container-xxl mt-3">
             <h1>Qui sommes-nous ?</h1>
             <!-- Présentation de l'entreprise -->
-            <section class="container-fluid row">
-                <article class="col">
+            <section class="container-fluid">
+                <article>
                     <p>
                         Bienvenue chez Bilbuq, l'entreprise de broderie artisanale qui donne vie à vos designs préférés !
                         <br>
@@ -49,7 +56,7 @@
                 </article>
 
                 <h2>Notre histoire</h2>
-                <article class="col">
+                <article>
                     <p>
                         Notre histoire commence il y a plus de 50 ans avec notre fondatrice Lucie, une femme passionnée de broderie.
                         <br>
@@ -74,10 +81,31 @@
             <h1>Nos designs</h1>
             <section class="container-fluid">
                 <article>
-
+                    Chez Bilbuq, nous sommes spécialisés dans la broderie artisanale personnalisée, ce qui signifie que nous pouvons transformer n'importe quel design en une pièce unique et intemporelle. Voici quelques exemples de designs que nous avons créés pour inspirer votre prochaine commande :
+                    <ul>
+                    <li>Broderie florale : La broderie florale est un grand classique de notre collection. Nous pouvons broder une grande variété de fleurs et de plantes sur différents types de tissus, pour créer des motifs à la fois élégants et authentiques.</li>
+                    <li>Logo d'entreprise : Vous cherchez à personnaliser vos uniformes d'entreprise ? Nous pouvons broder votre logo ou votre nom d'entreprise sur différentes pièces de vêtements, comme des polos, des chemises, des vestes et bien plus encore.</li>
+                    <li>Motifs géométriques : Si vous cherchez quelque chose de plus contemporain, nos motifs géométriques pourraient vous plaire. Nous pouvons broder des triangles, des cercles, des carrés et d'autres formes géométriques sur différents types de tissus pour créer des designs modernes et dynamiques.</li>
+                    <li>Dessins personnalisés : Vous avez un design spécifique en tête ? Nous pouvons le transformer en broderie. Envoyez-nous votre dessin ou votre logo et nous le transformerons en une pièce unique et authentique.</li>
+                    <li>Broderie de texte : Les mots peuvent être aussi puissants que les images. Nous pouvons broder des phrases, des citations ou même des noms sur différentes pièces de vêtements pour créer des designs qui ont une signification personnelle.</li>
+                    Ceci n'est qu'un échantillon de notre collection de designs. Chez Bilbuq, nous sommes fiers de notre capacité à transformer n'importe quel design en une pièce unique et intemporelle, et nous sommes toujours prêts à travailler avec vous pour créer un design sur mesure qui répond à vos besoins et à vos envies.
+                    </ul>
                 </article>
             </section>
         </main>
+
+        <aside class="col-3 border">
+            <section class="text-center mt-2">
+                <h3><a class="page-link" href="./pages/events.html">Prochains événements</a></h3>
+                <article>
+                    
+                </article>
+                <article>
+
+                </article>
+            </section>
+        </aside>
+        </div>
 
         <!-- Pied de page -->
         <footer>
