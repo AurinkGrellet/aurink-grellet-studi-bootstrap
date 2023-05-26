@@ -1,5 +1,5 @@
-# Groupe 1
 User-agent: *
-Allow: /
+Allow: /pages/
+Disallow: /css/
 
-Sitemap: 
+Sitemap: https://eclectic-peony-6a0951.netlify.app/sitemap.xml
