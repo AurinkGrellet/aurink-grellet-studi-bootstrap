@@ -1,0 +1,8 @@
+aside section hr {
+    color: rgb(0, 25, 95);
+}
+
+aside {
+    outline-style: dotted;
+    outline-color: rgb(0, 68, 255);
+}
