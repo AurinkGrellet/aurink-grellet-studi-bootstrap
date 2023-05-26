@@ -6,3 +6,20 @@ aside {
     outline-style: dotted;
     outline-color: rgb(0, 68, 255);
 }
+
+@media (max-width: 960px) {
+    * {
+        text-align: center;
+    }
+    main {
+        min-width: 100%;
+    }
+
+    .myEvent {
+        min-width: 100%;
+    }
+
+    body div.row {
+        margin: auto !important;
+    }
+}
